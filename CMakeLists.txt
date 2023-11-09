@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.23)
+project(cme_websocket_connector)
+include(FetchContent)
+
+# websocketpp
+# set(WEBSOCKETPP_URL "https://github.com/zaphoyd/websocketpp/archive/master.zip")
+# find_package(websocketpp REQUIRED)
+# message("websocketpp_SOURCE_DIR: ${websocketpp_SOURCE_DIR}")
+# message("websocketpp_INCLUDE_DIR: ${websocketpp_INCLUDE_DIR}")
+# message("websocketpp_BINARY_DIR: ${websocketpp_BINARY_DIR}")
+# if (NOT websocketpp_INCLUDE_DIR)
+#   set(websocketpp_INCLUDE_DIR ${websocketpp_SOURCE_DIR}/include)
+# endif()
+# add_subdirectory(${websocketpp_SOURCE_DIR})
+add_subdirectory(src/lib_cme_hooks)
+add_subdirectory(src/app_cme_connector)
