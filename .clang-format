@@ -1,0 +1,12 @@
+IndentWidth: 3
+BinPackArguments: true
+BinPackParameters: false 
+AlignAfterOpenBracket: AlwaysBreak
+AlwaysBreakTemplateDeclarations: true
+PenaltyReturnTypeOnItsOwnLine: 140
+ReflowComments: false
+PointerAlignment: Left
+---
+Language: Proto
+IndentWidth: 2
+AllowShortFunctionsOnASingleLine: None
