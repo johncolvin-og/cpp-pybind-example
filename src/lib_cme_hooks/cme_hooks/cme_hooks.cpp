@@ -17,7 +17,7 @@ PYBIND11_MODULE(cme_hooks, m) {
    pybind11::class_<CmeHooks>(m, "CmeHooks")
       .def(pybind11::init())
       .def("on_depth", &CmeHooks::on_depth)
-      .def("on_ticker", &CmeHooks::on_depth);
+      .def("on_ticker", &CmeHooks::on_ticker);
 }
 
 }  // namespace bts::cme_hooks
